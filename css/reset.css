@@ -2,20 +2,27 @@
 
 /* Noto Sans KR */
 /* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap'); */
+/* body { font-family: 'Noto Sans KR', sans-serif; } */
 
 /* Reset */
 html,body,h1,h2,h3,h4,h5,h6,div,p,blockquote,pre,code,address,ul,ol,li,nav,section,article,header,footer,main,aside,dl,dt,dd,table,thead,tbody,tfoot,label,caption,th,td,form,fieldset,legend,hr,input,button,textarea,object,figure,figcaption {margin:0;padding:0;}
 body,input,select,textarea,button,img,fieldset {border:none;}
-ul,ol,li{list-style:none;}
 table{width:100%;border-spacing:0;border-collapse:collapse;}
-address,cite,code,em,i{font-style:normal;font-weight:normal;}
+button, input {-webkit-border-radius:0;border-radius:0;border:0}
+button {background-color:transparent;cursor: pointer;}
 label,img,input,select,textarea,button,a {vertical-align:middle;}
-u,ins,a{text-decoration:none;}
-button { cursor: pointer;}
+iframe {overflow:hidden;margin:0;border:0;padding:0;vertical-align:top}
+textarea {-webkit-backface-visibility:hidden;backface-visibility:hidden;background-color:transparent;border:0;word-break:keep-all;word-wrap:break-word}
+p, li{word-break: keep-all;}
+
+body, button, input, select, table, textarea {font-size:12px;line-height:16px;color:#202020;font-family:-apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif}
+h1, h2, h3, h4, h5, h6 {font-size:inherit;line-height:inherit}
+ol, ul, li {list-style:none}
+address,cite,code,em,i{font-style:normal;font-weight:normal;}
+a {color:inherit;text-decoration:none}
+a:hover {text-decoration:underline}
 
 /* Normalize */
-body { font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;}
-/* body { font-family: 'Noto Sans KR', sans-serif; } */
 select { appearance:none;}
 select::-ms-expand { display:none;}
 input[type="search"]::-webkit-search-decoration,
@@ -40,9 +47,6 @@ textarea { resize: none;}
 /* html { font-size: 10px;}
 body { overflow-x:hidden; font-size: 1rem;}
 body.hidden { position: fixed; overflow-y:hidden;  touch-action: none;} */
-main { font-size: 1.4rem; line-height:2.1rem; color:#666; display: block;}
-a, button { color:#666;}
-p, li{word-break: keep-all;}
 .clear {clear:both;}
 .clear:after { content:""; display:block; clear:both;}
 caption > div,
